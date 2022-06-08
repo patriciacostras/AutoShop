@@ -1,0 +1,15 @@
+.nav-bar {
+    height:50px;
+    background: blue;
+    color: white;
+
+    ul{
+        list-style: none;
+        display: inline-flex;
+    
+        li{
+            margin-right: 10px;
+        }
+    }
+}
+

@@ -1,0 +1,18 @@
+<div class = "container-ok mt-2">
+    <h1 class = "m-2">Cars</h1>
+    
+    <button type="button" class="btn btn-primary mt-2 me-2" (click)="createCar()">
+        Create Car
+    </button>
+
+</div>
+
+
+<ag-grid-angular
+  style="width: 95%; height: 70vh;"
+  class="ag-theme-alpine m-3"
+  [rowData]="rowData"
+  [columnDefs]="columnDefs"
+  [frameworkComponents]="frameworkComponents"
+>
+</ag-grid-angular>
